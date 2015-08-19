@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Indigo - Registro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+         <link rel="stylesheet" type="text/css" href="../estilos/estilos.css" media="screen" />
+        
+    </head>
+    <body>
+        
+        <h1 align="center"> - Registro Cliente Nuevo - </h1>
+        
+        <form class="form-horizontal" role="form" action="../Registro" method="POST">
+            
+            <table align="center" WIDTH="30%" CELLSPACING="5" CELLPADDING="5">
+                <tr>
+                    <td>Primer Nombre</td>
+                    <td><input type="text" name="nombre1" required></td>
+                </tr>
+                <tr>
+                    <td>Segundo Nombre</td>
+                    <td><input type="text" name="nombre2"></td>
+                </tr>
+                <tr>
+                    <td>Apellido Paterno</td>
+                    <td><input type="text" name="apPat" required></td>
+                </tr>
+                <tr>
+                    <td>Apellido Materno</td>
+                    <td><input type="text" name="apMat" required></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="username" required></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td>Mail</td>
+                    <td><input type="email" name="mail" required></td>
+                </tr>
+            </table>
+            
+            <div align="center">
+                <br><button type="submit" class="btn btn-primary">OK</button>
+            </div>
+            
+        </form>
+        
+        
+    </body>
+</html>
